@@ -388,8 +388,8 @@ document.querySelectorAll(".project-card").forEach(card => {
             }, 0);
     });
 });
-
-// Project links
+ 
+// Project link
 document.querySelectorAll(".btn-github").forEach(btn => {
     btn.addEventListener("mouseenter", () => {
         gsap.to(btn, {
