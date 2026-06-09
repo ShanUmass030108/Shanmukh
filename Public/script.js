@@ -389,7 +389,7 @@ document.querySelectorAll(".project-card").forEach(card => {
     });
 });
  
-// Project link
+// Project linkss
 document.querySelectorAll(".btn-github").forEach(btn => {
     btn.addEventListener("mouseenter", () => {
         gsap.to(btn, {
